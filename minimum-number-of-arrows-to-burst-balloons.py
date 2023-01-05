@@ -1,6 +1,3 @@
-# Time:  O(nlogn)
-# Space: O(1)
-
 class Solution(object):
     def findMinArrowShots(self, points):
         """
@@ -23,4 +20,3 @@ class Solution(object):
             result += 1
             i = j
         return result
-
